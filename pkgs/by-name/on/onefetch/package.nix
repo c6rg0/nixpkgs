@@ -16,7 +16,7 @@ let
 in
 rustPlatform.buildRustPackage (finalAttrs: {
   pname = "onefetch";
-  version = "2.27.1";
+  version = "3.2.0";
 
   src = fetchFromGitHub {
     owner = "o2sh";
